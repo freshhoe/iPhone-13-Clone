@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "npm run watch",
+    "scss": "sass scss:css",
+    "watch": "npm run scss -- --watch",
+    "clean": "rimraf -rf css"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "sass": "^1.37.5"
+  }
+}
