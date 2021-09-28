@@ -1,0 +1,37 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.imageSection {
+  width: 50%;
+}
+
+.imageSection_description-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 0 0;
+  margin: 0;
+}
+.imageSection_description-1, .imageSection_description-2 {
+  list-style: none;
+  flex-basis: 50%;
+}
+.imageSection_description-p {
+  text-align: center;
+}
+.imageSection_description-image1, .imageSection_description-image2 {
+  text-align: center;
+}
+
+.imageSection_detail {
+  display: flex;
+  justify-content: center;
+  padding: 14px 14px 5px;
+  border-top: 1px solid gray;
+}
+.imageSection_detail-image {
+  border-right: 5px;
+}
+
+/*# sourceMappingURL=image.css.map */

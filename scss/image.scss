@@ -1,0 +1,43 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.imageSection {
+  width: 50%;
+}
+
+.imageSection_description {
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+    margin: 0;
+  }
+
+  &-item1,
+  &-item2 {
+    list-style: none;
+    flex-basis: 50%;
+  }
+
+  &-p {
+    text-align: center;
+  }
+
+  &-image1,
+  &-image2 {
+    text-align: center;
+  }
+}
+
+.imageSection_detail {
+  display: flex;
+  justify-content: center;
+  padding: 14px 14px 5px;
+  border-top: 1px solid gray;
+
+  &-image {
+    border-right: 5px;
+  }
+}
